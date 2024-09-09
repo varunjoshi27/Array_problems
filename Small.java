@@ -4,7 +4,8 @@ public class Small {
 
     public static int small(int array[][]){
       int n=3,m=3;
-    int small=Integer.MAX_VALUE;
+    int small=Integer.MAX_VALUE;// Max value
+    
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
           if (array[i][j]<small) {
