@@ -15,7 +15,7 @@ public class Small {
           
         }
     }
-    return 1;
+    return small;
 
     }
     public static void main(String[] args) {
