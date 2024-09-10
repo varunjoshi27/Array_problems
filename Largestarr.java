@@ -29,7 +29,7 @@ public class Largestarr {
 
         int largest=larger(array);
         System.out.println("The largest element is:"+largest);
-
+          sc.close();
         
     }
 }
