@@ -1,5 +1,5 @@
 public class pairs {
-    public static void pairs(int numbers[]){
+    public static void pairsarr(int numbers[]){
         int ps=0;
         for(int i=0;i<numbers.length;i++){
             int curr=numbers[i];
@@ -13,7 +13,7 @@ public class pairs {
     }
 public static void main(String[] args) {
     int numbers[]={1,2,3,4,5};
-    pairs(numbers);
+    pairsarr(numbers);
 }
     
 }
