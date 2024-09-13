@@ -1,6 +1,3 @@
-/**
- * array
- */
 public class array {
     public static void printsubarray(int array[]){
         int ts=0;
@@ -26,5 +23,4 @@ public static void main(String[] args) {
  
 
 }
-    
 }
