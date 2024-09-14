@@ -1,6 +1,3 @@
-/**
- * string
- */
 public class string {
 public static boolean ispallindrome(String number){
     for(int i=0;i<number.length()/2;i++){
@@ -14,7 +11,7 @@ public static boolean ispallindrome(String number){
 }
     public static void main(String[] args) {
         String number="12345654321";
-        // System.out.println("The number is"+ispallindrome(number));
+
         boolean name=ispallindrome(number);
         if (name!=true) {
             System.out.println("The number is not palindrome");
